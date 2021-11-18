@@ -1,0 +1,179 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin: 25px 0;
+    padding: 25px 0;
+    color:#2b5970;
+    background-color: #90AFC5;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15) ;
+}
+
+
+.Text{
+    display: flex;
+    margin: 5px 0;
+    padding: 8px 0;
+
+}
+
+.Text > div {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    
+}
+
+
+.Text > input[type="text"] {
+    width: 300px;
+    padding: 0;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-right: 0.6rem;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px #6c757d solid;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.button{
+    background-color: #EEA47FFF;
+    border: none;
+    color: #2b526e;
+    margin: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    transition: 0.4s;
+}
+
+.button:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.addQuali{
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin:20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addQuali label{
+    display: inline-block;
+    width: 130px;
+}
+
+.addQuali>div{
+    margin: 5px 0;
+}
+
+.addQuali input[type="text"] , .addQuali input[type="date"] {
+    height: 1.3rem;
+    border-radius: 5px;
+    border: grey solid 1px;
+    width: 150px;
+    padding-left: 15px;
+}
+
+.schoolData{
+    display: flex;
+    border-top: 2px solid rgb(216,216,216);
+    width: 100%;
+    background-color:  #f8f9fa;
+    margin: 15px 0;
+    padding: 15px;
+    transition: 0.2s;
+}
+
+.schoolData > div{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.schoolData labeln{
+    display: inline-block;
+    width: 150px;
+}
+
+.delBtn{
+    height: 35px;
+    font-size: 0.8rem;
+}
+
+.delBtn:hover{
+    height: 35px;
+    font-size: 0.8rem;
+    background-color: #ff8484;
+}
+
+.line{
+    height: 2px;
+    width: 50%;
+    margin: 15px 0;
+    background-color: rgb(9, 67, 117);
+}
+
+.heading{
+    width: 75%;
+}
+
+.EduExp,.PraExp{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.showEdu,.showPra{
+    width: 75%;
+}
+
+.EduExpContainer,.PraExpContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.wide{
+    display: inline-block;
+    width: 150px;
+    margin: 5px 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
